@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.administrator.baseactivty.SWrecyclerview.widgets.GestureSwipeRefreshLayout
+        android:id="@+id/srl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.administrator.baseactivty.SWrecyclerview.widgets.RefreshRecyclerView
+            android:id="@+id/rlv_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.example.administrator.baseactivty.SWrecyclerview.widgets.GestureSwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+
+                            温馨提示：写代码要注重代码的质量
+说明：这个项目对activity和fragment的一个抽取
+1.TabLayout的使用说明（改变指示器，背景，字体大小，选中的颜色）：http://www.jianshu.com/p/2b2bb6be83a8
+2.fragment的懒加载模式要重写fragment的setUserVisibleHint（）这个方法是在所有fragment生命周期执行之前
+    进行执行，当在可见的时候返回一个true，在不可见的时候返回的是false。
+3.有关广告倒计时http://www.jianshu.com/p/3db73ba78882
+4.flowlayout包下是自定义的流式布局
+    a.获取选中标签的索引：tagFlowLayout.getSelectedList()
+    b.获取对应索引处的值：tagAdapter.getItem(index)
+5.swrecyclerview是recyclerview下拉刷新上拉加载更多的案例
+6.Demo文件夹下的bottom_tab_toggle是对底部标题栏的显示与隐藏

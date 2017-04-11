@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/but_banner"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="图片无限轮播"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_swrv"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="recyclerview下拉刷新上拉加载"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_title"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="底部标题栏的显示与隐藏"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_time"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="广告倒计时"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
